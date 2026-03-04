@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "basesangular": {
+    "02-basesangular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "basesangular:build:production"
+              "buildTarget": "02-basesangular:build:production"
             },
             "development": {
-              "buildTarget": "basesangular:build:development"
+              "buildTarget": "02-basesangular:build:development"
             }
           },
           "defaultConfiguration": "development"

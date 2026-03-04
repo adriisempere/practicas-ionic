@@ -1,0 +1,5 @@
+<ul class="list-group">
+  <li *ngFor="let ruta of rutas" class="list-group-item">
+    <a [routerLink]="ruta.path" routerLinkActive="active">{{ ruta.label }}</a>
+  </li>
+</ul>
